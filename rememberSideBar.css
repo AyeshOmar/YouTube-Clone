@@ -1,0 +1,31 @@
+.sideBar{
+position: fixed;
+	top: 55px;
+	left: 0px;
+	bottom: 0px;
+width: 73px;
+z-index: 200;
+background-color: white;
+}
+.side-bar-case{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 90px;
+	margin-bottom: 2px;
+	
+}
+.side-bar-case:hover{
+background-color: lightgray;
+cursor: pointer;
+}
+.side-bar-case img{
+
+	width: 25px;
+}
+.ff{
+	margin-top: 4px;
+	font-size: 10px;
+
+}
